@@ -1,3 +1,4 @@
+package Assignment;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -19,26 +20,26 @@ import org.hibernate.*;
 public class Assignment
 {
 
-	public static void main(String[] args)
-	{
-
-		// System.out.println(insertUser("ilay", "ilayPass", "ilay", "firedman", "13",
-		// "03", "1991"));
-		// List<Mediaitems> nu = getTopNItems(5);
-		// for (Mediaitems m : nu) {
-		// System.out.println(m.getMid());
-		// }
-
-		// System.out.println(validateUser("ilay", "ilayPass"));
-		// System.out.println(validateUser("sss", "ilayPass"));
-		//System.out.println(getUser("2"));
-		System.out.println(getHistory("2"));
-		// insertToHistory("99", "10");
-		// System.out.println(getUsers());
-		// insertToLog("2");
-		// System.out.println(getNumberOfRegistredUsers(3));
-
-	}
+//	public static void main(String[] args)
+//	{
+//
+//		// System.out.println(insertUser("ilay", "ilayPass", "ilay", "firedman", "13",
+//		// "03", "1991"));
+//		// List<Mediaitems> nu = getTopNItems(5);
+//		// for (Mediaitems m : nu) {
+//		// System.out.println(m.getMid());
+//		// }
+//
+//		// System.out.println(validateUser("ilay", "ilayPass"));
+//		// System.out.println(validateUser("sss", "ilayPass"));
+//		//System.out.println(getUser("2"));
+//		System.out.println(getHistory("2"));
+//		// insertToHistory("99", "10");
+//		// System.out.println(getUsers());
+//		// insertToLog("2");
+//		// System.out.println(getNumberOfRegistredUsers(3));
+//
+//	}
 
 	public static boolean isExistUsername(String username)
 	{
